@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import Notification from './components/Notification';
 
 function App() {
   return (
@@ -7,15 +8,23 @@ function App() {
 
       <header className="App-header">
 
-        <h1>App page</h1>
-
-        <img src={logo} className="App-logo" alt="logo" />
+        <h1>⚔️ DnD name generator</h1>
 
       </header>
 
       <main>
-        <h2>I am the main container</h2>
+
+      <Notification 
+      heading="Your next mighty name is a few clicks away!"
+      icon="🔥" 
+      text="Welcome to the DND name generator, create a cool name for your next session or campaign."
+      />
+
       </main>
+
+      <footer>
+        Created using React, a cup of tea and some free time. 2021
+      </footer>
       
     </div>
   );
