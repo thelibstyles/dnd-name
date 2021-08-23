@@ -11,7 +11,6 @@ function Notification(props) {
 
             <h3>{props.icon} {props.heading}</h3>
             <p>{props.text}</p>
-
         </div>
         
         )
