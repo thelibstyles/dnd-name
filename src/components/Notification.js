@@ -8,7 +8,6 @@ function Notification(props) {
     return (
 
         <div className="notification">
-
             <h3>{props.icon} {props.heading}</h3>
             <p>{props.text}</p>
         </div>
